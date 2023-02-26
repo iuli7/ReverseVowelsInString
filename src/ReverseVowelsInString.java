@@ -1,8 +1,10 @@
-public class ReverseVowelsInString {
+public class ReverseVowelsInString{
+
+    public static final String HELLO = "Hello!";
 
     public static void main(String[] args){
 
-        System.out.println(reverseVowels("Hello world!"));
+        System.out.println(reverseVowels(HELLO));
     }
 
     private static String reverseVowels(String word) {
